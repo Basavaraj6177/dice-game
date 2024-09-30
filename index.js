@@ -10,9 +10,9 @@ let aa="images/"+varaa+".png";
 document.querySelector(".dice2").setAttribute("src",aa);
 
 
-if(vara<varaa){
+if(vara>varaa){
     document.querySelector("h1").innerHTML="Player 1 wins!!";
-}else if(vara>varaa){
+}else if(vara<varaa){
     document.querySelector("h1").innerHTML="Player 2 wins!!";
 
 }else{
